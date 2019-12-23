@@ -1,11 +1,14 @@
 # gym_tracker
+
 Update in progress
 
 # Logging and Presentation of Gymnastics training
 
 ## Getting Started
 
+
 ### Prerequisites
+
 Bash, Python
 Tkinter, Matplotlib,
 Pyinstaller
@@ -17,7 +20,6 @@ Bash: Use linux system (this project was tested on Ubuntu)
 Python: Anaconda (conda) OR download packages seperately.
 
 Pyinstaller will need to also be downloaded.
-
 
 ## Project Description
 
