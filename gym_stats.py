@@ -8,6 +8,7 @@ def write_File(e1,e2,e3,e4,e5,e6):
     #print(e1.get(),type(e1.get()))
     file.write("%s,%s,%s,%s,%s,%s\n"% (e1.get(),e2.get(),e3.get(),e4.get(),e5.get(),e6.get()))
     file.close()
+    return
 
 master = tkinter.Tk()
 master.eval('tk::PlaceWindow . center')

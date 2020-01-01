@@ -45,6 +45,11 @@
 import pandas as pd
 # https://www.learndatasci.com/tutorials/python-pandas-tutorial-complete-introduction-for-beginners/
 
-skills = pd.read_csv('info.csv')
-print(skills[skills['Soreness']<='4'])
-skills.to_csv('newfile.csv')
+# skills = pd.read_csv('info.csv')
+# print(skills[skills['Soreness']<='4'])
+# skills.to_csv('newfile.csv')
+
+skills = pd.read_csv('Skill_template.csv')
+# print(skills['FX_skills'])
+# print(skills.loc['FX_skills':'Number']) 
+print(skills.iloc[1:2])
